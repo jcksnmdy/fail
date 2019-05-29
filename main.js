@@ -7,10 +7,10 @@ function main() {
         console.log(page)
 }
 function masterActive() {
-        page = 1
-        window.location = 'http://127.0.0.1:5500/master.html';
+        page = 2
+        window.location = 'master.html';
 }
 function playerActive() {
-        page = 2
-        window.location = 'http://127.0.0.1:5500/player.html';
+        page = 3
+        window.location = 'player.html';
 }
