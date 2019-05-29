@@ -1,17 +1,18 @@
 page = 0
 function setup() {
         page = 0
+        window.location = 'index.html';
 }
 var mainClock = setInterval(main, 30)
 function main() {
         console.log(page)
 }
 function newGame() {
-        page = 3
+        page = 1
         window.location = 'new.html';
 }
 function joinGame() {
-        page = 4
+        page = 2
         window.location = 'join.html';
 }
 function masterActive() {

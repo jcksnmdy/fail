@@ -20,6 +20,18 @@ body {
         background-color: red;
         height: 400px;
 }
+#new {
+        font-size: 100px;
+        width: 500px;
+        background-color: orange;
+        height: 400px;
+}
+#join {
+        font-size: 100px;
+        width: 500px;
+        background-color: red;
+        height: 400px;
+}
 #chooseStation {
         text-align: center;
 
